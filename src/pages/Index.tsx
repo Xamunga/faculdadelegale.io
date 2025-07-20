@@ -3,38 +3,38 @@ import faculdadeLegaleLogo from "@/assets/faculdade-legale-logo.gif";
 const Index = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex items-center justify-center p-4">
-      <div className="w-full max-w-2xl mx-auto text-center py-12">
-        {/* Logo */}
-        <div className="mb-12">
+      <div className="w-full max-w-2xl mx-auto text-center py-8">
+        {/* Logo - MAIOR */}
+        <div className="mb-8">
           <img 
             src={faculdadeLegaleLogo} 
             alt="Faculdade Legale" 
-            className="mx-auto"
+            className="mx-auto w-64 h-auto"
           />
         </div>
 
-        {/* Title */}
-        <h1 className="text-xl font-bold mb-12 text-black">
+        {/* Title - SEM NEGRITO, MAIOR */}
+        <h1 className="text-2xl font-normal mb-8 text-black">
           ALUNO(A) MATRICULADO(A)
         </h1>
 
-        {/* Student Info */}
-        <div className="mb-16 space-y-2">
-          <p className="text-black font-medium">
+        {/* Student Info - SEM NEGRITO, MAIOR */}
+        <div className="mb-10 space-y-1">
+          <p className="text-black font-normal text-lg">
             ALUNO(A): TIAGO FRANCISCO LACERDA DE ALMEIDA
           </p>
-          <p className="text-black font-medium">
+          <p className="text-black font-normal text-lg">
             MATRÍCULA: 141175209
           </p>
         </div>
 
-        {/* Validity Statement */}
-        <p className="text-black font-bold mb-12 text-lg">
+        {/* Validity Statement - SEM NEGRITO, MAIOR */}
+        <p className="text-black font-normal mb-10 text-xl">
           DOCUMENTO VÁLIDO EM TODO TERRITÓRIO NACIONAL
         </p>
 
-        {/* Credentials */}
-        <div className="text-sm text-black space-y-1">
+        {/* Credentials - MENOR, SEM NEGRITO */}
+        <div className="text-sm text-black space-y-1 font-normal">
           <p>Credenciamento portaria MEC 3026 26/12/2001</p>
           <p>Credenciamento EAD portaria MEC 247 12/02/2020</p>
         </div>
